@@ -13,6 +13,8 @@
     --colore-testo-sezioni-footer: #7087D7; 
     --colore-sfondo-section: #ffffff;
     --colore-backgound-footer: #23272A;
+    --font-family: roboto;
+    --font-family-bold: roboto-bold;
 }
 
 /* colori
@@ -60,7 +62,7 @@ ul{
 ul>li{
     display: inline-block;
     margin-right: 40px;
-    font-family: roboto;
+    font-family: var(--font-family-bold)
     
     
     /* margin-top: 35px; */
@@ -145,7 +147,7 @@ div{
 }
 
 h2{
-    font-family: roboto;
+    font-family: var(--font-family-bold)
     font-size: 50px;
 }
 
@@ -161,7 +163,7 @@ p{
     width: 210px;
     margin-top: 20px;
     margin-right: 73px;
-    font-family: roboto;
+    font-family: var(--font-family)
 }
 
 #mac{
@@ -186,6 +188,9 @@ article{
     padding: 50px;
     color: var(--colore-backgound-footer)
     font-size: 50px;
+    font-family: roboto-bold;
+    font-weight: bold;
+    
 }
 /* footer */
 
