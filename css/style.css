@@ -37,6 +37,8 @@ colori section: #ffffff; */
 .logod{
     width:200px;
     margin-left:180px;
+    margin-top: 24px;
+    float: left;
 }
 
 
@@ -48,8 +50,10 @@ colori section: #ffffff; */
     margin: auto;
 }
 
+/* navbar */
 ul{
-    margin-left: 500px;
+    margin-left: 400px;
+    margin-top: 29px;
 }
     
 
@@ -71,12 +75,23 @@ a[href^="https"]{
 
 .logo>img{
     padding-bottom: 140px;
+    margin-top: 23px;
+    margin-left: 10px;
 }
 
 button{
     border-radius: 42px;
     padding: 12px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 73px;
+    float: right;
+
 }
+
+
+
+
 .jumbo{
     width: 100%;
     height: 100%;
@@ -98,12 +113,17 @@ nav{
 /* header */
 header{
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
     background-color: var(--navbar-header);
     border-top: 1px solid black;
+    
 }
 
-
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* main */
 
