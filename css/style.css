@@ -82,7 +82,7 @@ a[href^="https"]{
     margin-left: 10px;
 }
 
-button{
+#accedi{
     border-radius: 42px;
     padding: 12px;
     width: 100px;
@@ -153,6 +153,22 @@ p{
     margin-top: 44px;
     font-family: roboto;
 }
+
+#mac, #apri{
+    margin-right: 160px;
+    border-radius: 42px;
+    padding: 12px;
+    width: 210px;
+    margin-top: 20px;
+    margin-right: 73px;
+    font-family: roboto;
+}
+
+#mac{
+    background-color: var(--colore-backgound-footer);
+    color: white;
+}
+
 /* section */
 section{
     width: 100%;
