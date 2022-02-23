@@ -73,6 +73,10 @@ a[href^="https"]{
     padding-bottom: 140px;
 }
 
+button{
+    border-radius: 42px;
+    padding: 12px;
+}
 .jumbo{
     width: 100%;
     height: 100%;
@@ -98,6 +102,11 @@ header{
     background-color: var(--navbar-header);
     border-top: 1px solid black;
 }
+
+
+
+/* main */
+
 
 /* section */
 section{
