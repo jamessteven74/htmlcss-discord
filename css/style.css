@@ -1,0 +1,40 @@
+/* regole comuni */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --navbar-header: #3161E0;
+    --bottone-apri-discord: #23272A;
+    --bottone-scarica-per-Mac: #8EA1E1;
+    --colore-testo-sezioni-footer: #7087D7; */
+}
+
+/* colori
+navbar e header: #3161E0;
+bottone apri discord: #23272A;
+bottone scarica per Mac: #8EA1E1;
+colore testo sezioni footer: #7087D7; */
+
+/* Utilities */
+
+
+
+
+/* container */
+.container{
+    width: 1200px;
+    height: 4000px; 
+    /* background-color: aquamarine; */
+    margin: auto;
+}
+
+/* nav */
+nav{
+    width: 100%;
+    height: 90px;
+    background-color: var(--navbar-header);
+}
