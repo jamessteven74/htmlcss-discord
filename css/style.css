@@ -25,10 +25,18 @@ colori section: #ffffff; */
 
 /* Utilities */
 
-.logo{
-    width: 100px;
-    height: 100px;
-    background-image:url(../img/Discord-logo.png)
+.logo img{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 180px;
+    padding-bottom: 100px;
+}
+
+.logod{
+    width:200px;
+    margin-left:180px;
 }
 
 
@@ -40,11 +48,47 @@ colori section: #ffffff; */
     margin: auto;
 }
 
+ul{
+    margin-left: 500px;
+}
+    
+
+ul>li{
+    display: inline-block;
+    margin-right: 40px;
+    /* margin-top: 35px; */
+}
+ 
+a[href^="https"]{
+    text-decoration: none;
+    color: var(--colore-sfondo-section);
+}
+  
+.logo{
+    height: 250px;
+}
+
+
+.logo>img{
+    padding-bottom: 140px;
+}
+
+.jumbo{
+    width: 100%;
+    height: 100%;
+}
+
+/* ********************* */
+/* macro-aree */
+
 /* nav */
 nav{
     width: 100%;
     height: 90px;
     background-color: var(--navbar-header);
+    border-bottom: 1px solid black;
+    display: inline-block;
+   
 }
 
 /* header */
