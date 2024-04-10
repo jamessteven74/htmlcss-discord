@@ -28,14 +28,19 @@ body{
     min-width: 1440px;
 }
 
-/*#endregion*/
+/*#endregion common rule*/
 
-
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 
 /*#region utilities*/
 
-
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /*#endregion utilities*/
 
@@ -132,11 +137,7 @@ header{
     
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 
 /* main */
 
