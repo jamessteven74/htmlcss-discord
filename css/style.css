@@ -64,7 +64,7 @@ body{
 /* container */
 .container{
     width: 1200px;
-    height: 4000px; 
+    /* height: 4000px;  */
     /* background-color: aquamarine; */
     margin: auto;
 }
