@@ -24,6 +24,14 @@ bottone scarica per Mac: #8EA1E1;
 colore testo sezioni footer: #7087D7;
 colori section: #ffffff; */
 
+
+.container{
+    width: 1200px;
+    /* height: 4000px;  */
+    /* background-color: aquamarine; */
+    margin: auto;
+}
+
 body{
     min-width: 1440px;
 }
@@ -61,9 +69,7 @@ body{
     float: left;
 }
 
-.my-top-30px {
-    margin-top: 30px;
-}
+
 
 
 
@@ -86,7 +92,7 @@ body{
 
 /*#region header; #jumbo_img; #jumbo_text; .call_to_action*/
 
-header>#jumbo_img{
+header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     height: 713px;
@@ -178,25 +184,37 @@ nav.navbar {
     background-color: var(--navbar-header);
 }
 
-nav.navbar div.logo {
-    text-align: center;
+
+nav.navbar .logo>img{
+   position: absolute;
+   top: 30px;
+   left: 350px;
 }
 
+nav.navbar .menu{
+    position: absolute;
+   top: 30px;
+   left: 200px;
+}
+ 
 
+nav.navbar .btn{
+    position: absolute;
+    top: 30px;
+    left: 140px;
+}
 
 nav.navbar ul.menu>li {
     display: inline-block;
     list-style-type: none;
     font-family: var(--font-family);
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   
     
     
 }
 
-ul.menu {
-    text-align: center;
-}
+
 ul.menu>li a{
     color: var(--colore-sfondo-section);
     text-decoration: none;
@@ -222,9 +240,4 @@ nav.navbar .btn {
 /** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 
-#container{
-    width: 1200px;
-    /* height: 4000px;  */
-    /* background-color: aquamarine; */
-    
-}
+
