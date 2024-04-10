@@ -14,7 +14,7 @@
     --colore-sfondo-section: #ffffff;
     --colore-backgound-footer: #23272A;
     --font-family: roboto;
-    --font-family-bold: roboto-bold;
+    
 }
 
 /* colori
@@ -28,10 +28,16 @@ body{
     min-width: 1440px;
 }
 
+[href]{
+    text-decoration: none;
+    font-family: var(--font-family);
+}
+
+
 /*#endregion common rule*/
 
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 
 /*#region utilities*/
@@ -42,173 +48,183 @@ body{
     clear: both;
 }
 
-/*#endregion utilities*/
-
-.logo img{
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-left: 180px;
-    padding-bottom: 100px;
+.col-25 {
+    width:25%;
+    height: 100px;
+    float: left;
+    /* border: 1px solid black; */
 }
 
-.logod{
-    width:200px;
-    margin-left:180px;
-    margin-top: 24px;
+.col-50 {
+    width: 50%;
+    height: 100px;
     float: left;
 }
 
-
-/* container */
-.container{
-    width: 1200px;
-    /* height: 4000px;  */
-    /* background-color: aquamarine; */
-    margin: auto;
-}
-
-/* navbar */
-ul{
-    margin-left: 400px;
-    margin-top: 29px;
-}
-    
-
-ul>li{
-    display: inline-block;
-    margin-right: 40px;
-    font-family: var(--font-family-bold)
-    
-    
-    /* margin-top: 35px; */
-}
- 
-a[href^="https"]{
-    text-decoration: none;
-    color: var(--colore-sfondo-section);
-}
-  
-.logo{
-    height: 250px;
-}
-
-
-.logo>img{
-    padding-bottom: 140px;
-    margin-top: 23px;
-    margin-left: 10px;
-}
-
-#accedi{
-    border-radius: 42px;
-    padding: 12px;
-    width: 100px;
-    margin-top: 20px;
-    margin-right: 73px;
-    float: right;
+.my-top-30px {
+    margin-top: 30px;
 }
 
 
 
-
-
-
-/* ********************* */
-/* macro-aree */
-
-/* nav */
-nav{
-    width: 100%;
-    height: 90px;
-    background-color: var(--navbar-header);
-    /* border-bottom: 1px solid black; */
-    display: inline-block;
-    
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
-/* header */
-header{
-    width: 100%;
-    /* height: 600px; */
-    background-color: var(--navbar-header);
-    border-top: 1px solid black;
-    
-}
-
-
-
-/* main */
-
-.jumbo{
-    width: 100%;
-    height: 100%;
-    
-}
-
-div{
+.p_relative{
     position: relative;
 }
 
-.testo{
+/*#endregion utilities*/
+
+/** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+/*#region header; #jumbo_img; #jumbo_text; .call_to_action*/
+
+header>#jumbo_img{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 713px;
+}
+
+
+
+
+
+
+#jumbo_text div.title> h1 {
+font-family: var(--font-family);
+font-size: 4rem;
+color: var(--colore-sfondo-section);
+position: absolute;
+top: 9rem;
+left: 9rem;
+}
+
+#jumbo_text #jumbo_paragraph{
+     
+     color: var(--colore-sfondo-section);
+     line-height: 35px;
+     font-size: 23px;
+     position: absolute;
+     top: 18.5rem;
+     left: 3rem;
+}
+
+#jumbo_text #jumbo_paragraph span{
+    padding: 0 22px;
+}
+
+
+
+.call_to_action {
+    
     position: absolute;
-    top: 66px;
-    left: 393px;
-    color: var(--colore-sfondo-section);
-    
+    top: 27rem;
+    left: 11rem;
 }
 
-h2{
-    font-family: var(--font-family-bold)
-    font-size: 50px;
+
+
+.call_to_action button.btn:first-of-type{
+    font-family: var(--font-family);
+    background-color: white;
+    border: none;
+    font-size: 25px;
+    border-radius: 30px;
+    width: 260px;
+    height: 65px;
+    margin-right: 2rem;
+
 }
 
-p{
-    margin-top: 44px;
-    font-family: roboto;
+.call_to_action button.discord{
+    background-color: black;
+    font-family: var(--font-family);
+    font-size: 25px;
+    border: none;
+    background-color: var();
+    border-radius: 30px;
+    width: 446px;
+    height: 65px;
 }
 
-#mac, #apri{
-    margin-right: 160px;
-    border-radius: 42px;
-    padding: 12px;
-    width: 210px;
-    margin-top: 20px;
-    margin-right: 73px;
-    font-family: var(--font-family)
-}
 
-#mac{
-    background-color: var(--colore-backgound-footer);
+.call_to_action .btn a.scarica_per_mac{
+    color: black;
+    padding: 10px;
+   
+}
+.call_to_action .btn a.open_discord{
     color: white;
-}
-
-/* section */
-section{
-    width: 100%;
-    height: 600px;
-    /* background-color: red;
-    border-top: 1px solid black; */
-}
-
-/* article */
-article{
-    float: right
-}
-
-.articolo{
-    padding: 50px;
-    color: var(--colore-backgound-footer)
-    font-size: 50px;
-    font-family: roboto-bold;
-    font-weight: bold;
     
 }
-/* footer */
 
-footer{
-    width: 100%;
-    height: 550px;
-    background-color: var(--colore-backgound-footer)
+
+/*#endregion header; #jumbo_img; #jumbo_text; .call_to_action*/
+
+/** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/*#region navbar*/
+
+nav.navbar {
+    background-color: var(--navbar-header);
+}
+
+nav.navbar div.logo {
+    text-align: center;
+}
+
+
+
+nav.navbar ul.menu>li {
+    display: inline-block;
+    list-style-type: none;
+    font-family: var(--font-family);
+    padding: 0 2rem;
+  
+    
+    
+}
+
+ul.menu {
+    text-align: center;
+}
+ul.menu>li a{
+    color: var(--colore-sfondo-section);
+    text-decoration: none;
+}
+
+
+nav.navbar .btn {
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-family: var(--font-family);
+    background-color: var(--colore-sfondo-section);
+}
+
+
+
+
+
+/*#endregion navbar*/
+
+/** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+#container{
+    width: 1200px;
+    /* height: 4000px;  */
+    /* background-color: aquamarine; */
+    
 }

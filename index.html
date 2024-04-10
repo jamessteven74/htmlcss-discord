@@ -13,102 +13,104 @@
             href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
             rel="stylesheet">
         <!-- fonts Roboto -->
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+            integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
         <title>Discord</title>
     </head>
 
 
     <body>
-        <!-- container -->
-        <div class="container">
-
-            <!-- header -->
-            <header>
-                <!-- navbar -->
-                <nav class=" row clearfix">
-                    <button id="accedi">Accedi</button>
-                    <!-- logo -->
-                    <div class="logod">
-
-                        <img src="./img/logo.svg" alt="">
-                    </div>
-
-                    <ul class="list">
-                        <li> <a href="https">Scarica</a></li>
-                        <li> <a href="https">Perché Discord</a></li>
-                        <li> <a href="https">Nitro</a></li>
-                        <li> <a href="https">Sicurezza</a></li>
-                        <li> <a href="https">Assistenza</a></li>
-                    </ul>
-                    <!-- <div class="logo"> -->
-
-                    <!-- </div> -->
 
 
-                </nav>
+        <header id="site_header">
 
-            </header>
+            <nav class="navbar">
+                <div class="row clearfix">
 
-            <!-- site_main -->
-            <main>
-
-                <div>
-
-                    <img class="jumbo" src="./img/jumbo.png" alt="">
-                    <div class="testo">
-                        <h2>
-                            Il tuo posto per parlare
-                        </h2>
-                        <p>
-                            Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica <br>
-                            mondiale, o semplicemente di un piccolo gruppo di amici che vuole passareil tempo <br>
-                            assieme, Discord rende più facili chiacchierare ogni giorno e ritovarsi più spesso
-                        </p>
-                        <div class="bottoni">
-
-                            <button id="apri">&#x02193 Scarica per Mac</button>
-                            <button id="mac">Apri Discord nel tuo bowser</button>
+                    <div class="col-25">
+                        <div class="logo">
+                            <img class="my-top-30px" src="./img/logo.svg" alt="logo">
                         </div>
-
-
                     </div>
-                    <!-- /.testo -->
 
+                    <div class="col-50">
+                        <ul class="menu my-top-30px">
+                            <li><a href="#">Scarica</a></li>
+                            <li><a href="#">Perché Discord</a></li>
+                            <li><a href="#">Nitro</a></li>
+                            <li><a href="#">Sicurezza</a></li>
+                            <li><a href="#">Assistenza</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-25">
+                        <button class="btn my-top-30px">Accedi</button>
+                    </div>
                 </div>
+                <!-- /.row clearfix -->
+            </nav>
+            <!-- /.navbar -->
 
 
+            <div id="jumbo_img">
+                <div id="jumbo_text">
+                    <div class="row clearfix">
+                        <div class="col-25"></div>
+                        <!-- no element inside -->
 
-                <section>
-                    <img src="./img/item1.svg" alt="">
+                        <div class="col-50">
+                            <div class="title p_relative">
 
-                    <article>
-                        <h3 class="articolo">
-                            Un luogo a <br>
-                            invito con tutto <br> lo spazio <br> necessario <br> per parlare
-                        </h3>
+                                <h1 class="roboto-medium">Il tuo posto per parlare</h1>
 
+                                <p id="jumbo_paragraph" class="roboto-medium">
+                                    <span>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità
+                                        artistica</span>
+                                    <br>
+                                    mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il
+                                    tempo <br>
+                                    <span> assieme, Discord rende più facili chiacchierare ogni giorno e ritovarsi più
+                                        spesso.</span>
+                                </p>
 
-
-
-
-                    </article>
-
-                </section>
-                <section></section>
-                <section></section>
-                <section></section>
-
-
-
-                <!-- section -->
-            </main>
-
-            <!-- site_footer -->
-            <footer>
+                                <div class="call_to_action ">
+                                    <button class="btn roboto-medium">
+                                        <span class="arow_down">
+                                            <i class="fas fa-long-arrow-alt-down"></i>
+                                        </span>
+                                        <a class="scarica_per_mac" href="#">Scarica per Mac</a>
+                                    </button>
 
 
-            </footer>
-        </div>
-        <!-- /.container -->
+                                    <button class="btn roboto-medium discord">
+                                        <a class="open_discord" href="#">
+                                            Apri Discord nel tuo browser
+                                        </a>
+                                    </button>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- .col-50 .call_to_action -->
+
+                        <div class="col-25"></div>
+                        <!-- no element inside -->
+                    </div>
+                </div>
+            </div>
+            <!-- #jumbo_img -->
+
+
+        </header>
+        <!-- /#site_header -->
+        <main id="site_main"></main>
+        <!-- /#site_main -->
+        <footer id="site_footer"></footer>
+        <!-- /#site_footer -->
+
 
 
     </body>
