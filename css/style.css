@@ -1,4 +1,4 @@
-/* regole comuni */
+/*#region common rule*/
 
 *{
     box-sizing: border-box;
@@ -24,8 +24,16 @@ bottone scarica per Mac: #8EA1E1;
 colore testo sezioni footer: #7087D7;
 colori section: #ffffff; */
 
+/*#endregion*/
 
-/* Utilities */
+
+
+
+/*#region utilities*/
+
+
+
+/*#endregion utilities*/
 
 .logo img{
     width: 200px;
