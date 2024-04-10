@@ -24,16 +24,34 @@ bottone scarica per Mac: #8EA1E1;
 colore testo sezioni footer: #7087D7;
 colori section: #ffffff; */
 
+.debug{
+    border: 1px solid red;
+}
+
+.debug >.container{
+     border: 1px solid red;
+}
+
+.debug .jumbo_text h1{
+    border: 1px solid red;
+}
+
+.debug span{
+    border: 1px solid red;
+}
+
 
 .container{
     width: 1200px;
-    /* height: 4000px;  */
-    /* background-color: aquamarine; */
     margin: auto;
+   
 }
+
+
 
 body{
     min-width: 1440px;
+    background-color: var(--navbar-header);
 }
 
 [href]{
@@ -58,20 +76,36 @@ body{
 
 .col-25 {
     width:25%;
-    height: 100px;
     float: left;
-    /* border: 1px solid black; */
+   
+}
+
+.col-30{
+    width: 30%;
+    float: left;
 }
 
 .col-50 {
     width: 50%;
-    height: 100px;
+    float: left;
+   
+}
+
+.col-70{
+    width: 70%;
     float: left;
 }
 
+.col-100{
+    width: 100%;
+    float: left;
+}
 
-
-
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
 .roboto-medium {
   font-family: "Roboto", sans-serif;
@@ -92,85 +126,36 @@ body{
 
 /*#region header; #jumbo_img; #jumbo_text; .call_to_action*/
 
-header{
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-    height: 713px;
-}
 
 
-
-
-
-
-#jumbo_text div.title> h1 {
-font-family: var(--font-family);
-font-size: 4rem;
-color: var(--colore-sfondo-section);
-position: absolute;
-top: 9rem;
-left: 9rem;
-}
-
-#jumbo_text #jumbo_paragraph{
-     
-     color: var(--colore-sfondo-section);
-     line-height: 35px;
-     font-size: 23px;
-     position: absolute;
-     top: 18.5rem;
-     left: 3rem;
-}
-
-#jumbo_text #jumbo_paragraph span{
-    padding: 0 22px;
-}
-
-
-
-.call_to_action {
+  .jumbo_image>img{
+    max-width: 100%;
+ } 
+ 
+.jumbo_text {
+    width: 100%;
+    color: var(--colore-sfondo-section);
+    font-family: var(--font-family);
+    text-align: center;
     
+}
+
+
+.jumbo_text h1 {
+    font-size: 3rem;
+}
+
+
+
+.container_text{
     position: absolute;
-    top: 27rem;
-    left: 11rem;
+    top: 70px;
 }
 
-
-
-.call_to_action button.btn:first-of-type{
-    font-family: var(--font-family);
-    background-color: white;
-    border: none;
-    font-size: 25px;
-    border-radius: 30px;
-    width: 260px;
-    height: 65px;
-    margin-right: 2rem;
-
+.container_text>p.jumbo_paragraph{
+    margin-top: 1.5rem;
+    line-height: 25px;
 }
-
-.call_to_action button.discord{
-    background-color: black;
-    font-family: var(--font-family);
-    font-size: 25px;
-    border: none;
-    background-color: var();
-    border-radius: 30px;
-    width: 446px;
-    height: 65px;
-}
-
-
-.call_to_action .btn a.scarica_per_mac{
-    color: black;
-    padding: 10px;
-   
-}
-.call_to_action .btn a.open_discord{
-    color: white;
-    
-}
-
 
 /*#endregion header; #jumbo_img; #jumbo_text; .call_to_action*/
 
@@ -180,58 +165,44 @@ left: 9rem;
 
 /*#region navbar*/
 
-nav.navbar {
-    background-color: var(--navbar-header);
-}
-
-
 nav.navbar .logo>img{
-   position: absolute;
-   top: 30px;
-   left: 350px;
+    margin: 1rem 0 0 9.5rem;
 }
 
 nav.navbar .menu{
-    position: absolute;
-   top: 30px;
-   left: 200px;
-}
- 
-
-nav.navbar .btn{
-    position: absolute;
-    top: 30px;
-    left: 140px;
+     margin: 1rem 0 0 3.5rem;
 }
 
-nav.navbar ul.menu>li {
+
+
+nav.navbar{
+    background-color: var(--navbar-header);
+}
+
+nav.navbar ul.menu>li{
     display: inline-block;
     list-style-type: none;
-    font-family: var(--font-family);
-    padding: 0 1.5rem;
-  
-    
-    
+    padding: 0.5rem 1rem ;
+     
+   
 }
 
-
-ul.menu>li a{
+nav.navbar ul.menu>li a{
     color: var(--colore-sfondo-section);
-    text-decoration: none;
+    font-family: var(--font-family);
+    
 }
 
-
-nav.navbar .btn {
+nav.navbar .btn{
+    background-color: var(--colore-sfondo-section);
     width: 80px;
-    height: 40px;
+    height: 30px;
     border-radius: 20px;
     border: none;
     font-family: var(--font-family);
-    background-color: var(--colore-sfondo-section);
+    margin:1rem 0 0 3rem;
+   
 }
-
-
-
 
 
 /*#endregion navbar*/
@@ -239,5 +210,14 @@ nav.navbar .btn {
 /** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
+
+/*#region main*/
+
+
+
+/*#endregion main*/
+
+/** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 
