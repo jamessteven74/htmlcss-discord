@@ -126,6 +126,11 @@ body{
     float: left;
 }
 
+.col-75{
+    width: 75%;
+    float: left;
+}
+
 .col-100{
     width: 100%;
     float: left;
@@ -401,6 +406,7 @@ section.a_place_by_invitation_4{
 
 footer#site_footer{
    background-color: var(--colore-backgound-footer);
+   
 }
 
 .box_language_social{
@@ -430,6 +436,62 @@ footer#site_footer{
 
 .social .fab {
     padding: 0 6px 0 0;
+}
+
+.prodotto h5, 
+.compagnia h5, 
+.risorse h5,
+.norme{
+    color: var(--colore-testo-sezioni-footer);
+    margin-top: 2.5rem;
+    
+}
+
+footer#site_footer ul li{
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+footer#site_footer ul li a{
+    text-decoration: none;
+    font-family: var(--font-family);
+    color: var(--colore-sfondo-section);
+}
+
+.line_divided{
+    height: 1px;
+    background-color: var(--colore-testo-sezioni-footer);
+    margin: 0 100px;
+}
+
+
+
+
+.footer_bottom {
+    margin: 20px 100px;
+}
+
+.footer_bottom .row {
+    padding-bottom: 50px;
+}
+.logo_bottom {
+    float: left;
+}
+
+.btn_bottom {
+    float: right;
+    
+}
+
+.btn_bottom .sign_in {
+    width: 80px;
+    height: 30px;
+    background-color: var(--colore-testo-sezioni-footer);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-family: var(--font-family);
+    
 }
 /*#endregion footer*/
 

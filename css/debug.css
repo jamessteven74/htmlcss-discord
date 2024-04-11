@@ -10,7 +10,8 @@
 .debug .container_place_text,
 .debug .container_fandom,
 .debug .container_technology,
-.debug .stars_text, footer {
+.debug .stars_text, 
+.debug footer {
      border: 1px solid red;
 }
 
