@@ -157,6 +157,46 @@ body{
     line-height: 25px;
 }
 
+.call_to_action_btns{
+    text-align: left;
+    margin-top: 15px;
+   /*  border: 1px solid red; */
+}
+
+.call_to_action_btns>.btn_mac{
+    width: 185px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-family: var(--font-family);
+    margin:0 0 0 70px;
+   
+}
+.call_to_action_btns>.btn_mac a{
+    text-decoration: none;
+    color: var(--colore-backgound-footer);
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.call_to_action_btns>.open_discord{
+     width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-family: var(--font-family);
+    margin-left: 10px;
+    background-color: var(--bottone-apri-discord);
+}
+
+.call_to_action_btns>.open_discord a{
+    text-decoration: none;
+    color: var(--colore-sfondo-section);
+    font-family: var(--font-family);
+    font-size: 1rem;
+}
+
+
 /*#endregion header; #jumbo_img; #jumbo_text; .call_to_action*/
 
 /** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
