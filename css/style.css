@@ -36,17 +36,36 @@ colori section: #ffffff; */
     
 }
 
-.container, .container_place, .container_find, .container_fandom, .container_technology{
+.container, .container_place, 
+.container_find, 
+.container_fandom, 
+.container_technology, 
+footer{
     width: 1200px;
     margin: auto;
 
 }
 
-.container_place, .container_find, .container_fandom, .container_technology{
+.container_place, 
+.container_find, 
+.container_fandom, 
+.container_technology{
     margin-top: 6rem;
 }
 
 
+
+
+.divided_top, 
+.container_technology{
+    color: var(--wave);
+}
+
+.divided_bottom{
+    transform: rotateX(180deg);
+    color: var(--wave);
+    
+}
 
 
 body{
@@ -69,6 +88,11 @@ body{
     content: "";
     display: table;
     clear: both;
+}
+
+.col-20{
+    width: 20%;
+    float: left;
 }
 
 .col-25 {
@@ -123,6 +147,7 @@ body{
 .p_relative{
     position: relative;
 }
+
 
 /*#endregion utilities*/
 
@@ -291,15 +316,7 @@ nav.navbar .btn{
         margin-top: 3rem;
 }
 
-.divided_top{
-    color: var(--wave);
-}
 
-.divided_bottom{
-    transform: rotateX(180deg);
-    color: var(--wave);
-    
-}
 
 /* +++++++++++++++++++++++++++++++++++++++++++++
 +++++++++++++++++++++++++++++++++++++++++++++ */
@@ -309,7 +326,8 @@ section.a_place_by_invitation_2 {
     margin: -4px 0;
 }
 
-section.a_place_by_invitation_4 h2.text, section.a_place_by_invitation_4 p.paragraph_text{
+section.a_place_by_invitation_4 h2.text, 
+section.a_place_by_invitation_4 p.paragraph_text{
     text-align: center;
 }
 
@@ -341,6 +359,7 @@ section.a_place_by_invitation_4{
     width: 440px;
     margin: -7px auto;
     font-size: 22px;
+    color: var(--colore-backgound-footer);
 }
 
 
@@ -363,9 +382,22 @@ section.a_place_by_invitation_4{
     padding: 0.5rem;
     font-family: var(--font-family);
 }
+
+.technology_image span.arrow_down{
+    color: var(--colore-sfondo-section);
+}
 /*#endregion section_1, section_2, section_3, section_4*/
 
 /** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/*#region footer*/
+
+footer#site_footer{
+    background-color: var(--colore-backgound-footer);
+}
+
+/*#endregion footer*/
 
 
