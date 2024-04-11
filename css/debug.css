@@ -1,0 +1,34 @@
+
+
+.debug .container{
+     border: 1px solid red;
+}
+
+.debug .container_middle,
+.debug .container_find, 
+.debug .container_place,
+.debug .container_place_text,
+.debug .container_fandom,
+.debug .container_technology,
+.debug .stars_text {
+     border: 1px solid red;
+}
+
+.debug .divided_top,
+.devug .divided_bottom{
+    border: 2px solid greenyellow;
+}
+
+.debug .jumbo_text h1{
+    border: 1px solid red;
+}
+
+
+.debug span{
+    border: 1px solid red;
+}
+
+
+.debug .widget {
+    border: 1px solid red;
+} 
