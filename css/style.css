@@ -39,8 +39,7 @@ colori section: #ffffff; */
 .container, .container_place, 
 .container_find, 
 .container_fandom, 
-.container_technology, 
-footer{
+.container_technology,footer{
     width: 1200px;
     margin: auto;
 
@@ -141,6 +140,12 @@ body{
 .roboto-medium {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -395,9 +400,37 @@ section.a_place_by_invitation_4{
 /*#region footer*/
 
 footer#site_footer{
-    background-color: var(--colore-backgound-footer);
+   background-color: var(--colore-backgound-footer);
 }
 
+.box_language_social{
+     padding: 2rem 0 0 6rem;
+}
+
+
+.box_language_social>h3 {
+    color: var(--colore-testo-sezioni-footer);
+    font-family: var(--font-family);
+    padding: 10px 0;
+    
+}
+
+.language{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.language span{
+    color: var(--colore-sfondo-section);
+}
+
+#site_footer .social {
+    color: white;
+}
+
+.social .fab {
+    padding: 0 6px 0 0;
+}
 /*#endregion footer*/
 
 
