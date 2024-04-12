@@ -7,7 +7,8 @@
 }
 
 :root{
-    --navbar-header: #3161E0;
+    --navbar: #255ee9;
+    /* --navbar-header: #3161E0; */
     --bottone-apri-discord: #23272A;
     --bottone-scarica-per-Mac: #8EA1E1;
     --colore-testo-sezioni-footer: #7087D7; 
@@ -23,7 +24,9 @@ navbar e header: #3161E0;
 bottone apri discord: #23272A;
 bottone scarica per Mac: #8EA1E1;
 colore testo sezioni footer: #7087D7;
-colori section: #ffffff; */
+colori section: #ffffff;
+colore navbar rgb(37, 94, 233)
+*/
 
 
 /** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -31,8 +34,8 @@ colori section: #ffffff; */
 
 
 
-.top_container {
-    background-color: var(--navbar-header);
+.container {
+    background-color: var(--navbar);
     
 }
 
