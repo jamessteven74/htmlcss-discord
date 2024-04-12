@@ -259,12 +259,12 @@ nav.navbar .btn{
     margin:0 0 0 70px;
    
 }
-.call_to_action_btns>.btn_mac a{
-    text-decoration: none;
-    color: var(--colore-backgound-footer);
-    font-size: 1rem;
-    padding: 0.5rem;
+
+.call_to_action_btns span.arrow_down{
+    padding: 10px;
 }
+
+
 
 .call_to_action_btns>.open_discord{
      width: 250px;
@@ -274,6 +274,7 @@ nav.navbar .btn{
     font-family: var(--font-family);
     margin-left: 10px;
     background-color: var(--bottone-apri-discord);
+    color: var(--colore-sfondo-section);
 }
 
 .call_to_action_btns>.open_discord a{
@@ -376,7 +377,7 @@ section.a_place_by_invitation_4{
     font-family: var(--font-family);
     margin:0 0 0 70px;
     background-color: var(--bottone-scarica-per-Mac);
-    
+    color: var(--colore-sfondo-section);
     margin: 3rem auto;
    
 }
@@ -390,6 +391,7 @@ section.a_place_by_invitation_4{
 
 .technology_image span.arrow_down{
     color: var(--colore-sfondo-section);
+    padding: 10px;
 }
 /*#endregion section_1, section_2, section_3, section_4*/
 
