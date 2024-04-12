@@ -295,7 +295,10 @@ nav.navbar .btn{
 
 
 
-/*#region section_1, section_2, section_3, section_4*/
+/*#region container_place with(section_1), 
+container_find with(section_2),
+container_fandom with(section_3), 
+container_technology with (section_4)*/
 
 
 
@@ -354,8 +357,7 @@ section.a_place_by_invitation_4{
 }
 
 .technology_image{
-    text-align: center;
-}
+    text-align: center;x
 
 .technology_image img:nth-child(2){
     width: 440px;
@@ -393,7 +395,10 @@ section.a_place_by_invitation_4{
     color: var(--colore-sfondo-section);
     padding: 10px;
 }
-/*#endregion section_1, section_2, section_3, section_4*/
+/*#endregion container_place with(section_1), 
+container_find with(section_2),
+container_fandom with(section_3), 
+container_technology with (section_4)*/
 
 /** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /** ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
