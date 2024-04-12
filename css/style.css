@@ -357,7 +357,8 @@ section.a_place_by_invitation_4{
 }
 
 .technology_image{
-    text-align: center;x
+    text-align: center;
+}
 
 .technology_image img:nth-child(2){
     width: 440px;
@@ -496,5 +497,4 @@ footer#site_footer ul li a{
     
 }
 /*#endregion footer*/
-
 
